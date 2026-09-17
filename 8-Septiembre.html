@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>8 de Septiembre - Josefa Ortiz de Domínguez</title>
 </head>
+<!-- El body usa un fondo gris claro (#F4F4F0) y Flexbox (display: flex) para mantener el footer en la parte inferior -->
 <body style="background-color: #F4F4F0; margin: 0; font-family: sans-serif; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
     <!-- Boton de Regreso -->
     <header style="padding: 15px 0 0 20px;">
+        <!-- Este enlace funciona como botón de navegación para regresar al menú principal (index.html) -->
         <a href="index.html" style="background-color: #D32F2F; color: white; text-decoration: none; padding: 8px 15px; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; border-radius: 4px; display: inline-block;">
             ⬅ Volver al Inicio
         </a>
@@ -16,9 +18,10 @@
 
     <!-- toda la Informacion almacenada en el lado izquierdo  -->
     <main style="flex-grow: 1; display: flex; align-items: stretch; width: 100%;">
+        <!-- Tabla principal estructurada en dos grandes columnas para dividir el texto de la imagen -->
         <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height: 100%;">
             <tr>
-                <!--  Información de texto -->
+                <!-- Primera columna (65% del ancho): Contiene todo el texto biografico y datos historicos -->
                 <td width="65%" valign="top" style="padding: 40px 50px;">
                     
                     <h1 style="color: #D32F2F; font-size: 2.2rem; font-weight: 900; text-transform: uppercase; margin-top: 0; line-height: 1.2;">
@@ -26,6 +29,7 @@
                     </h1>
 
                     <!-- cuadro con borde rojo -->
+                    <!-- Mini tabla con borde rojo para resaltar la introduccion como un cuadro de honor -->
                     <table border="2" bordercolor="#D32F2F" cellpadding="15" cellspacing="0" width="100%" style="margin-bottom: 30px;">
                         <tr>
                             <td style="font-size: 1.05rem; font-weight: bold; line-height: 1.4;">
@@ -35,6 +39,7 @@
                     </table>
 
                     <!-- Lista de datos-->
+                    <!-- Lista con viñetas (ul) que detalla cronologicamente la vida del personaje histórico -->
                     <ul style="padding-left: 20px; line-height: 1.6; font-size: 1rem;">
                         <li><strong>Nombre completo:</strong> María Josefa Crescencia Ortiz Téllez-Girón.</li>
                         <li><strong>Lugar de nacimiento:</strong> Valladolid (hoy Morelia, Michoacán) o la Ciudad de México, según distintas fuentes históricas.</li>
@@ -45,7 +50,7 @@
                     </ul>
 
                     <!--  Datos Curiosos -->
-                    <h2 style="font-size: 1.2rem; font-weight: bold; margin-top: 30px; color: #333;">Datos curiosos del 8 de septiembre</h2>
+                    <h2>Datos curiosos del 8 de septiembre</h2>
                     <p style="font-size: 0.95rem; line-height: 1.4;">
                         <strong>El día de Star Trek:</strong> Aunque no es un festejo oficial de la ONU, los fanáticos celebran el Star Trek Day el 8 de septiembre porque en 1966 se emitió por televisión el primer episodio de la serie original.
                     </p>
@@ -54,21 +59,19 @@
                     </p>
                 </td>
 
-                    <!-- Cuadro y configuracion donde se acomoda la imagen -->
-                    <td width="35%" bgcolor="#68806A" valign="bottom" align="center" style="position: relative;">
+                <!-- Cuadro y configuracion donde se acomoda la imagen -->
+                <!-- Segunda columna (35% del ancho): Tiene un fondo verde olivo (#68806A) y alinea la imagen al fondo (valign="bottom") -->
+                <td width="35%" bgcolor="#68806A" valign="bottom" align="center" style="position: relative;">
                     <!-- Imagen de Josefa Ortiz -->
+                    <!-- Muestra la imagen ocupando el ancho completo del contenedor (width="100%") sin deformarse (object-fit: contain) -->
                     <img src="JosefaOrtiz.png" alt="Josefa Ortiz" width="100%" style="max-height: 75vh; object-fit: contain; display: block;">
-                    
-
-                    </td>
-                    </tr>
-                    </table>
                 </td>
             </tr>
         </table>
     </main>
 
     <!-- Footer -->
+    <!-- Mantiene los mismos datos de control del alumno con el fondo rojo (#CE1126) del archivo principal (index) -->
     <footer bgcolor="#CE1126" style="background-color: #CE1126; color: white; padding: 15px 15px 15px 35%; text-transform: uppercase; font-weight: bold; font-size: 1.1rem; letter-spacing: 1px;">
         SANCHEZ DOMINGUEZ JOSE ALEJANDRO<br>
         NO.CONTROL: 24308051280657<br>
