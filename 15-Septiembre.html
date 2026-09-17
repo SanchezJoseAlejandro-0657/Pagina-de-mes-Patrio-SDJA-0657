@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>15 de Septiembre - El Grito de Independencia</title>
 </head>
+<!-- Cuerpo del documento con fondo crema (#F8F5EE) y configuracion de Flexbox para la distribucion vertical -->
 <body style="background-color: #F8F5EE; margin: 0; font-family: sans-serif; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
-    <!-- Boton de regredo-->
+    <!-- Boton de regreso-->
     <header style="padding: 20px 0 0 40px;">
+        <!-- Enlace que sirve como boton con estilo rojo para volver a la pagina de inicio -->
         <a href="index.html" style="background-color: #CE1126; color: white; text-decoration: none; padding: 8px 15px; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; border-radius: 4px; display: inline-block;">
             ⬅ Volver al Inicio
         </a>
     </header>
 
     <!-- Informacion  -->
+    <!-- Contenedor principal que se estira proporcionalmente para llenar la pantalla -->
     <main style="flex-grow: 1; display: flex; align-items: stretch; width: 100%;">
+        <!-- Tabla maestra utilizada para separar las secciones de texto y elementos visuales -->
         <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height: 100%;">
             <tr>
-                <!-- Información Histórica -->
+                <!-- Informaci0n Histórica -->
+                <!-- Celda izquierda (60% del ancho) configurada para mostrar los textos historicos -->
                 <td width="60%" valign="top" style="padding: 20px 40px 40px 40px;">
                     
                     <h1 style="color: #CE1126; font-size: 2.2rem; font-weight: 900; text-transform: uppercase; margin-top: 0; line-height: 1.2;">
@@ -35,10 +40,12 @@
                         Históricamente, el levantamiento armado no ocurrió la noche del 15 de septiembre, sino durante la madrugada del 16 de septiembre de 1810. Al verse descubierta la Conspiración de Querétaro, el cura Miguel Hidalgo y Costilla, acompañado por Ignacio Allende y Juan Aldama, convocó al pueblo en la parroquia de Dolores, Guanajuato, haciendo sonar las campanas para levantarse en armas contra el virreinato de la Nueva España. Aunque el proceso de guerra duró 11 años, este instante se consagró como el nacimiento espiritual de la nación.
                     </p>
 
+                    <!-- Linea de division horizontal muy sutil para separar la narrativa de los datos curiosos -->
                     <hr color="#000000" size="1" style="opacity: 0.1; margin-bottom: 20px;">
 
-                    <!-- Sección de Mitos y Curiosidades -->
+                    <!-- Seccion de Mitos y Curiosidades -->
                     <h2 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 15px;">Mitos y Curiosidades</h2>
+                    <!-- Lista desordenada que recopila las aclaraciones de los mitos populares del Grito de Dolores -->
                     <ul style="padding-left: 20px; line-height: 1.6; font-size: 0.95rem;">
                         <li><strong>El mito del cumpleaños de Porfirio Díaz:</strong> Existe la creencia popular de que el festejo se movió al 15 de septiembre porque el presidente Porfirio Díaz quería hacerlo coincidir con su cumpleaños. Si bien Díaz consolidó el gran espectáculo en el Zócalo en el Centenario de 1910, la realidad es que desde la década de 1840 (cuando Díaz era un niño) ya se acostumbraba festejar desde la noche del 15 con serenatas y fuegos artificiales para esperar la llegada del día 16.</li>
                         <li><strong>Hidalgo no gritó "¡Viva México!":</strong> La frase que hoy repiten gobernantes y ciudadanos no existía en 1810 porque el concepto de "México" como país independiente aún no se definía. De acuerdo con testigos como Juan Aldama, la arenga original fue en apoyo al rey Fernando VII (quien había sido destronado por Napoleón Bonaparte) y decía algo parecido a: "¡Viva la religión! ¡Viva nuestra Madre Santísima de Guadalupe! ¡Viva Fernando VII! ¡Muera el mal gobierno!".</li>
@@ -47,7 +54,9 @@
                 </td>
 
                 <!-- Imagen de Miguel Hidalgo  -->
+                <!-- Celda derecha (40% de ancho) asignada para cargar y encuadrar el archivo de imagen de Miguel Hidalgo -->
                 <td width="40%" valign="middle" align="center" style="padding: 20px;">
+                    <!-- Etiqueta de imagen responsiva con ajuste contenedor automático para que no pierda proporcion -->
                     <img src="MiguelHidalgo.png" alt="Ilustración de Miguel Hidalgo y el Grito de Independencia" width="100%" style="max-width: 550px; height: auto; object-fit: contain;">
                 </td>
             </tr>
@@ -55,6 +64,7 @@
     </main>
 
     <!-- Footer -->
+    <!-- Seccion inferior del diseño dedicada a imprimir los datos academicos del alumno sobre el fondo institucional rojo -->
     <footer bgcolor="#CE1126" style="background-color: #CE1126; color: white; padding: 15px 15px 15px 35%; text-transform: uppercase; font-weight: bold; font-size: 1.1rem; letter-spacing: 1px;">
         SANCHEZ DOMINGUEZ JOSE ALEJANDRO<br>
         NO.CONTROL: 24308051280657<br>
