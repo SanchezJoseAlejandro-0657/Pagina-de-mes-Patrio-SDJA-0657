@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>16 de Septiembre - Día de la Independencia</title>
 </head>
+<!-- Cuerpo del documento con fondo crema (#F8F5EE) y distribución Flexbox para mantener el footer abajo -->
 <body style="background-color: #F8F5EE; margin: 0; font-family: sans-serif; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
-    <!-- Botón de Regreso -->
+    <!-- Boton de Regreso -->
     <header style="padding: 20px 0 0 40px;">
+        <!-- Enlace de un boton que redirige al archivo de inicio index.html -->
         <a href="index.html" style="background-color: #CE1126; color: white; text-decoration: none; padding: 8px 15px; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; border-radius: 4px; display: inline-block;">
             ⬅ Volver al Inicio
         </a>
     </header>
 
     <!-- toda la informacion en tabla dividida para poner la imagen -->
+    <!-- Contenedor principal adaptable para expandirse de forma elastica en la pantalla -->
     <main style="flex-grow: 1; display: flex; align-items: stretch; width: 100%;">
+        <!-- Estructura de tabla maestra para organizar la maquetacion en dos bloques laterales -->
         <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height: 100%;">
             <tr>
                 <!-- Texto principal grande -->
+                <!-- Celda para contenidos escritos (60% del ancho) con alineacion superior del texto -->
                 <td width="60%" valign="top" style="padding: 20px 40px 40px 40px;">
                     
                     <h1 style="color: #4A5D4E; font-size: 2.1rem; font-weight: 900; text-transform: uppercase; margin-top: 0; line-height: 1.2;">
@@ -26,6 +31,7 @@
                     </h1>
 
                     <!-- Informacion con borde negro -->
+                    <!-- Tabla secundaria perimetral con borde negro para destacar el parrafo de introduccion -->
                     <table border="1" bordercolor="#000000" cellpadding="15" cellspacing="0" width="100%" style="margin-bottom: 25px;">
                         <tr>
                             <td style="font-size: 1rem; line-height: 1.4;">
@@ -36,16 +42,19 @@
 
                     <u style="font-weight: bold;"><p style="font-size: 1.05rem; margin-top: 20px; margin-bottom: 12px;">¿Qué sucedió el 16 de septiembre de 1810?</p></u>
                     
+                    <!-- Lista con viñetas que sintetiza los tres acontecimientos principales de la mañana del grito -->
                     <ul style="padding-left: 20px; line-height: 1.6; font-size: 0.95rem; margin-bottom: 25px;">
                         <li><strong>El inicio real del movimiento:</strong> Entre las 5:00 y las 6:00 de la mañana, Miguel Hidalgo convocó formalmente a la población en el atrio de la Parroquia de Dolores.</li>
                         <li><strong>Liberación de presos:</strong> Antes de dar el Grito, Hidalgo, Allende y Aldama marcharon hacia la cárcel de Dolores para liberar a los presos políticos y comunes, sumándolos a las filas insurgentes.</li>
                         <li><strong>El primer "Ejército":</strong> Al salir de Dolores con rumbo a San Miguel el Grande, el contingente armado inicial no sumaba más de 600 hombres mal armados con picas, machetes y herramientas de labranza. Horas más tarde, al pasar por el santuario de Atotonilco, Hidalgo adoptó el estandarte de la Virgen de Guadalupe como la primera bandera del movement.</li>
                     </ul>
 
+                    <!-- Separador horizontal para delimitar secciones de texto -->
                     <hr color="#000000" size="1" style="opacity: 0.1; margin-bottom: 20px;">
 
-                    <!-- Sección de Mitos y Curiosidades -->
+                    <!-- Seccion de Mitos y Curiosidades -->
                     <h2 style="font-size: 1.05rem; font-weight: bold; margin-bottom: 15px;">Mitos y Curiosidades del 16 de septiembre</h2>
+                    <!-- Lista de datos adicionales de interes historico para enriquecer la lectura de la pagina -->
                     <ul style="padding-left: 20px; line-height: 1.6; font-size: 0.95rem;">
                         <li><strong>El desfile militar no siempre existió:</strong> El tradicional Desfile Cívico-Militar del 16 de septiembre en la Ciudad de México se convirtió en una tradición anual obligatoria hasta 1935, por decreto del presidente Lázaro Cárdenas. Antes de eso, las celebraciones eran principalmente verbenas populares, discursos literarios y funciones de teatro.</li>
                         <li><strong>¿Quién celebró el primer aniversario?</strong> El primer festejo oficial registrado del 16 de septiembre no ocurrió en la Ciudad de México ni fue organizado por Hidalgo (quien ya había sido fusilado). Lo realizó el insurgente Ignacio López Rayón el 16 de septiembre de 1812 en Huichapan, Hidalgo. Documentos históricos registran que celebró con una descarga de artillería, repique de campanas y música.</li>
@@ -54,8 +63,9 @@
                 </td>
 
                 <!-- Imagen  -->
+                <!-- Celda derecha (40% del ancho total) destinada exclusivamente para centrar la imagen decorativa -->
                 <td width="40%" valign="middle" align="center" style="padding: 20px;">
-                  
+                    <!-- Elemento multimedia vinculado al archivo local con un sombreado suave (box-shadow) en sus bordes -->
                     <img src="16sepilus.png" alt="Ilustración del 16 de Septiembre" width="100%" style="max-width: 500px; height: auto; object-fit: contain; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
                 </td>
             </tr>
