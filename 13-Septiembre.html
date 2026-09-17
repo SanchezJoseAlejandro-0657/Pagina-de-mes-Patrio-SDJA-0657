@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>13 de Septiembre - Los Niños Héroes</title>
 </head>
+<!-- Cuerpo del documento con fondo crema (#F8F5EE) y Flexbox para organizar  las secciones -->
 <body style="background-color: #F8F5EE; margin: 0; font-family: sans-serif; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
     <!-- Boton de Regreso -->
     <header style="padding: 20px 0 0 40px;">
+        <!-- Enlace estilizado como boton que te manda de vuelta a la pagina principal index.html -->
         <a href="index.html" style="background-color: #CE1126; color: white; text-decoration: none; padding: 8px 15px; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; border-radius: 4px; display: inline-block;">
             ⬅ Volver al Inicio
         </a>
     </header>
 
     <!-- toda la informacion de la parte izquierda -->
+    <!-- Contenedor que cubre la pantalla disponible de forma responsiva -->
     <main style="flex-grow: 1; display: flex; align-items: stretch; width: 100%;">
+        <!-- Tabla maestra utilizada para maquetar el espacio en dos secciones (60% texto y 40% imagen) -->
         <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height: 100%;">
             <tr>
-                <!-- Información Histórica  -->
+                <!-- Informacion Historica  -->
+                <!-- Celda izquierda configurada con alineacion superior para la lectura comoda de datos historicos -->
                 <td width="60%" valign="top" style="padding: 20px 40px 40px 40px;">
                     
                     <h1 style="color: #3B4A3F; font-size: 2.2rem; font-weight: 900; text-transform: uppercase; margin-top: 0; line-height: 1.2;">
@@ -30,21 +35,24 @@
                     </p>
 
                     <p style="font-size: 1rem; line-height: 1.5; margin-bottom: 25px;">
-                        Cada 13 de septiembre se conmemora el Aniversario de la Gesta Heroica de los Niños Héroes de Chapultepec, recordando la defensa del Castillo de Chapultepec en 1847 frente a la invasión estadounidense.
+                        Cada 13 de septiembre se conmemora el Aniversario de la Gesta Heroica de los Niños Héroes de Chapultepec, recordando la defense del Castillo de Chapultepec en 1847 frente a la invasión estadounidense.
                     </p>
 
                     <h2 style="font-size: 1.1rem; font-weight: bold; margin-top: 20px; margin-bottom: 15px;">¿Qué pasó el 13 de septiembre de 1847?</h2>
 
+                    <!-- Lista ordenada con viñetas que resume  la defensa de Chapultepec -->
                     <ul style="padding-left: 20px; line-height: 1.6; font-size: 1rem; margin-bottom: 30px;">
                         <li><strong>El combate:</strong> Tropas del ejército de Estados Unidos atacaron el Castillo de Chapultepec, que entonces funcionaba como la sede del Colegio Militar.</li>
                         <li><strong>La resistencia:</strong> Menos de mil defensores mexicanos, entre soldados y cadetes, repelieron el asalto del ejército contrario que los superaba en número y armamento.</li>
                         <li><strong>Los cadetes caídos:</strong> Se recuerda con honor la muerte de seis jóvenes defensores que se convirtieron en símbolo de patriotismo.</li>
                     </ul>
 
+                    <!-- Separador horizontal con opacidad ligera para dividir la leccion civica de las curiosidades -->
                     <hr color="#000000" size="1" style="opacity: 0.1; margin-bottom: 20px;">
 
-                    <!-- Sección de Mitos y Curiosidades -->
+                    <!-- Seccion de Mitos y Curiosidades -->
                     <h2 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 15px;">Mitos y curiosidades</h2>
+                    <!-- Lista desordenada con viñetas para desmitificar hechos populares del Colegio Militar en 1847 -->
                     <ul style="padding-left: 20px; line-height: 1.6; font-size: 0.95rem;">
                         <li><strong>El mito del salto de Juan Escutia:</strong> No existe evidencia histórica contemporánea de que Juan Escutia se haya envuelto en la bandera nacional para lanzarse al vacío. Los registros indican que fue abatido junto a otros cadetes mientras intentaban replegarse hacia el jardín botánico del cerro. La bandera mexicana sí fue capturada por el ejército estadounidense como trofeo de guerra.</li>
                         <li><strong>No todos eran "niños":</strong> Aunque el más joven (Francisco Márquez) tenía solo 12 o 14 años, varios de los cadetes recordados ya eran técnicamente adultos para la época: Juan Escutia tenía 20 años y Juan de la Barrera 19.</li>
@@ -52,8 +60,10 @@
                     </ul>
                 </td>
 
-                <!--  Imagen de los Niños Héroes a la derecha -->
+                <!--  Imagen de los Niños Heroes a la derecha -->
+                <!-- Celda derecha (40% de ancho) asignada para cargar y centrar verticalmente la imagen representativa -->
                 <td width="40%" valign="middle" align="center" style="padding: 20px;">
+                    <!-- Etiqueta de la imagen vinculada al archivo local con limites maximos de renderizado responsivo -->
                     <img src="NiñosHeroes.png" alt="Ilustración de los Niños Héroes de Chapultepec" width="100%" style="max-width: 500px; height: auto; object-fit: contain;">
                 </td>
             </tr>
