@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>30 de Septiembre - Natalicio de José María Morelos y Pavón</title>
 </head>
+<!-- Cuerpo de la pagina con un fondo crema claro (#F8F5EE) que usa Flexbox para distribuir verticalmente las secciones -->
 <body style="background-color: #F8F5EE; margin: 0; font-family: sans-serif; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
-    <!-- Botón de Regreso -->
+    <!-- Boton de Regreso -->
     <header style="padding: 20px 0 0 40px;">
+        <!-- Hipervinculo que actua como un boton para regresar a la pagina principal  -->
         <a href="index.html" style="background-color: #CE1126; color: white; text-decoration: none; padding: 8px 15px; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; border-radius: 4px; display: inline-block;">
             ⬅ Volver al Inicio
         </a>
     </header>
 
     <!-- Contenido en Dos Columnas con Tabla -->
+    <!-- Contenedor principal que se estira para usar todo el espacio vertical disponible -->
     <main style="flex-grow: 1; display: flex; align-items: stretch; width: 100%;">
+        <!-- Tabla con estructura del 100% de alto y ancho para dividir el espacio proporcionalmente -->
         <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height: 100%;">
             <tr>
                 <!--  Información Principal en verde -->
+                <!-- es la columna izquierda (60% de ancho) destinada a albergar todo el contenido textual, títulos y listas -->
                 <td width="60%" valign="top" style="padding: 20px 40px 40px 40px;">
                     
                     <h1 style="color: #CE1126; font-size: 2.1rem; font-weight: 900; text-transform: uppercase; margin-top: 0; line-height: 1.2;">
@@ -26,10 +31,11 @@
                     </h1>
 
                     <!-- Texto con cuadro -->
+                    <!-- Tabla secundaria con borde rojo para destacar la sintesis biografica del personaje -->
                     <table border="1" bordercolor="#CE1126" cellpadding="15" cellspacing="0" width="100%" style="margin-bottom: 25px;">
                         <tr>
                             <td style="font-size: 1rem; line-height: 1.4; font-weight: bold;">
-                                Nacido en 1765, Conocido como el "Siervo de la Nación", fue el genio militar y político que tomó las riendas de la Independencia tras la muerte de Miguel Hidalgo.
+                                Nacido en 1765, Conocido como el "Siervo de la Nación", fue el genio militar and político que tomó las riendas de la Independencia tras la muerte de Miguel Hidalgo.
                             </td>
                         </tr>
                     </table>
@@ -43,10 +49,12 @@
                         En 1813 presentó los <u>Sentimientos de la Nación</u>, un documento precursor donde declaró la independencia absoluta de España, la abolición total de la esclavitud, la eliminación de las castas y la división de poderes.
                     </p>
 
+                    <!-- Linea sutil horizontal usada como separador visual de contenido -->
                     <hr color="#000000" size="1" style="opacity: 0.1; margin-bottom: 20px;">
 
                     <!-- Sección de Mitos y Curiosidades -->
                     <h2 style="font-size: 1.05rem; font-weight: bold; margin-bottom: 15px;">Mitos y Curiosidades de Morelos y el 30 de Septiembre</h2>
+                    <!-- Lista desordenada con viñetas spbre historias secundarias de Morelos -->
                     <ul style="padding-left: 20px; line-height: 1.6; font-size: 0.95rem;">
                         <li><strong>El mito del paliacate por migraña:</strong> La creencia popular dice que Morelos usaba siempre un paliacate en la cabeza para calmar dolores intensos de migraña. Aunque sí sufría de cefaleas crónicas, los historiadores señalan que también lo adoptó por razones de higiene y practicidad militar, ya que sudaba copiosamente durante las campañas en las regiones calurosas del sur de México y el paliacate evitaba que el sudor le nublara la vista en combate.</li>
                         <li><strong>Su verdadera "raza" oculta:</strong> En su acta de bautismo, Morelos fue registrado como "español" (criollo) porque su madre quería protegerlo de la discriminación colonial. Sin embargo, genéticamente era de origen mestizo o mulato (su padre era un carpintero de ascendencia indígena y africana). Irónicamente, él mismo se encargaría de destruir el sistema de castas años más tarde.</li>
@@ -55,8 +63,10 @@
                     </ul>
                 </td>
 
-                <!--  Ilustración del héroeJoseMariaMorelos (40% de ancho) -->
+                <!--  Ilustración del JoseMariaMorelos (40% de ancho) -->
+                <!-- Columna derecha (40% de ancho) configurada para centrar la imagen del heroe patrio -->
                 <td width="40%" valign="middle" align="center" style="padding: 20px;">
+                    <!-- Etiqueta de imagen vinculada al archivo local, con escalado proporcional (width="100%") -->
                     <img src="JoseMariaMorelos.png" alt="Ilustración de José María Morelos y Pavón" width="100%" style="max-width: 480px; height: auto; object-fit: contain;">
                 </td>
             </tr>
@@ -64,6 +74,7 @@
     </main>
 
     <!-- Footer -->
+    <!-- cierre de la página que contiene los datos academicos del alumno -->
     <footer bgcolor="#CE1126" style="background-color: #CE1126; color: white; padding: 15px 15px 15px 35%; text-transform: uppercase; font-weight: bold; font-size: 1.1rem; letter-spacing: 1px;">
         SANCHEZ DOMINGUEZ JOSE ALEJANDRO<br>
         NO.CONTROL: 24308051280657<br>
